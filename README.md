@@ -7,7 +7,7 @@
 - Создайте виртуальное окружение для проекта (python3 -m venv .venv), либо без него
 - pip3 install jupyter (для активации окружения . ./.venv/bin/activate)
 - git checkout -b <surname_name_lection> (пример: ivanov_lection_1)
-- откройте блокнот по необходимой лекции
+- откройте блокнот по необходимой лекции (команда в терминале: jupyter notebook)
 - git add * 
 - git commit -m 'Done exercise <name_lection>'
 - git push origin <surname_name_lection>:<surname_name_lection>
