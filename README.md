@@ -8,7 +8,11 @@
 - pip3 install jupyter (для активации окружения . ./.venv/bin/activate)
 - git checkout -b <surname_name_lection> (пример: ivanov_lection_1)
 - откройте блокнот по необходимой лекции (команда в терминале: jupyter notebook)
+<<<<<<< HEAD
 - git add * (после окончания работы)
+=======
+- git add * 
+>>>>>>> a5b7afd (Update README.md)
 - git commit -m 'Done exercise <name_lection>'
 - git push origin <surname_name_lection>:<surname_name_lection>
 - на сайте выберите в разделе branch свою ветку и нажмите compare and pull request 
