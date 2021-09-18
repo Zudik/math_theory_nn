@@ -6,9 +6,17 @@
 - git clone https://github.com/Zudik/math_theory_nn.git
 - Создайте виртуальное окружение для проекта (python3 -m venv .venv), либо без него
 - pip3 install jupyter (для активации окружения . ./.venv/bin/activate)
-- git checkout -b <surname_name_lection> (пример: ivanov_lection_1)
-- откройте блокнот по необходимой лекции (команда в терминале: jupyter notebook)
-- git add * (после окончания работы)
+
+# git config --global user.email "you@example.com"
+# git config --global user.name "Your Name"
+
+
+- git checkout -b <surname_name_lection_x> ( <surname_name_lection_x> вводиться без <> пример: ivanov_ivan_lection_1)
+- jupyter notebook (после выполнения команды откроется браузер с домашней страницей jupyter, где необходимо выбрать нужную лекцию и выполнять задания. После после окончания работы продолжить ввод команд)
+# Расписать выход из jupyter и закрытие сервера
+
+
+- git add * 
 - git commit -m 'Done exercise <name_lection>'
 - git push origin <surname_name_lection>:<surname_name_lection>
 - на сайте выберите в разделе branch свою ветку и нажмите compare and pull request 
