@@ -18,12 +18,13 @@
 - git add * (после окончания работы)
 - git commit -m 'Done exercise <name_lection>'
 - git push --set-upstream origin <name_branch>
+- Создайте токен на сайте по инструкции: https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token (либо привяжите ssh key на github) 
+- При отправке изменений вместо ввода пароля используйте токен
 - git push origin <surname_name_lection>:<surname_name_lection>
 - на сайте своего репозитория выберите в разделе branch ветку <surname_name_lection> и нажмите compare and pull request 
 - выберите zudik/main
-- выберите справа reviewers dvk605 и zudik
 - ожидайте отметки в комментарии или в файле results.md
-- git fetch на случай обновления моего репозитория
+- git fetch - команда для получения новых изменений с репозитория
 ## Результаты
 [Таблица с результатами](results.md)
 ## Ссылки на задания
